@@ -1,0 +1,228 @@
+@media (max-width: 576px)
+	.hidden-mobile
+		display: none
+	.header
+		&__logo
+			background: $active-color url(../img/logo-mobile.png) center no-repeat
+			width: 35px
+			height: 35px
+			border-radius: 4px
+		&-contacts
+			&__phone
+				&s
+					flex-direction: column
+				font-size: 14px
+				margin-right: 0
+				&:first-child
+					border: none
+			&__button
+				display: inline-block
+				padding: 9px
+				margin-right: 0
+				img
+					margin-right: 0
+	.main
+		text-align: center
+		padding-top: 50px
+		&-text
+			&__title
+				font-size: 22px
+				color: $active-color
+			&__subtitle
+				font-size: 18px
+				margin-bottom: 40px
+			&__form
+				background-color: transparent
+				padding: 10px
+	.form
+		display: block
+		&-title
+			padding-right: 0
+			font-size: 15px
+			line-height: 1.4
+		&__input
+			display: block
+			margin-bottom: 13px
+	.numbers
+		&-block
+			display: block
+			width: 100%
+			margin-bottom: 24px
+	.features-blocks
+		flex-direction: column
+	.button
+		padding: 10px 15px
+	body
+		margin-right: 0
+		padding-right: 0
+		width: 100%
+		.production
+			&-slider-nav
+				height: 383px
+				margin-top: 22px
+			&-text
+				text-align: center
+				&__title
+					margin-left: 0px
+					padding-left: 0
+					width: 100%
+				&__descr
+					text-align: center
+			.slick
+				&-arrow
+					height: 78px
+					width: 22px
+					margin-top: -27px
+				&-prev
+					background: url(../img/slider/slider-next_hover.png) #ff9d00 center no-repeat
+					transform: translateY(-14%) translateX(115%)  rotate(180deg)
+					z-index: 3
+					&:hover
+						transform: translateY(-14%) translateX(115%)  rotate(180deg)
+				&-next
+					background: url(../img/slider/slider-next_hover.png) #ff9d00 center no-repeat
+					transform: translateY(-14%) translateX(-115%)
+					&:hover
+						transform: translateY(-14%) translateX(-115%)
+			.main-slides
+				filter: brightness(100%)
+				cursor: pointer
+				width: 292px
+				height: 383px
+				&-1
+					background: url('../img/slider/img-1.png') center no-repeat
+					filter: brightness(100%)
+					width: 292px
+					height: 383px
+				&-2
+					background: url('../img/slider/img-2.png') center no-repeat
+					filter: brightness(100%)
+					width: 292px
+					height: 383px
+				&-3
+					filter: brightness(100%)
+					background: url('../img/slider/img-3.png') center no-repeat
+					width: 292px
+					height: 383px
+				&-4
+					background: url('../img/slider/img-4.png') center no-repeat
+					filter: brightness(100%)
+					width: 292px
+					height: 383px
+				&-5
+					background: url('../img/slider/img-5.png') center no-repeat
+					filter: brightness(100%)
+					width: 292px
+					height: 383px
+				&-6
+					background: url('../img/slider/img-6.png') center no-repeat
+					filter: brightness(100%)
+					width: 292px
+					height: 383px
+
+		.feedback
+			.slick
+				&-arrow
+					height: 78px
+					width: 22px
+					margin-top: -27px
+				&-prev
+					background: url(../img/slider/slider-next_hover.png) #ff9d00 center no-repeat
+					transform: translateY(-14%) translateX(160%)  rotate(180deg)
+					z-index: 3
+					&:hover
+						transform: translateY(-14%) translateX(115%)  rotate(180deg)
+				&-next
+					background: url(../img/slider/slider-next_hover.png) #ff9d00 center no-repeat
+					transform: translateY(-14%) translateX(-115%)
+					&:hover
+						transform: translateY(-14%) translateX(-115%)
+	.clients
+		text-align: center
+		margin-left: auto
+		margin-right: auto
+		&__wrap
+			display: flex
+		&-block
+			width: 142px
+			height: 87px
+			text-align: center
+			line-height: 87px
+			margin-left: auto
+			margin-right: auto
+			&__img
+				filter: grayscale(0%)
+				max-width: 137px
+				max-height: 73px
+				text-align: center
+	.offer
+		text-align: center
+		&-title
+			font-size: 20px
+			&_small
+				margin-top: 10px
+				font-size: 16px
+		&-form
+			&__label
+				margin-top: 30px
+				margin-bottom: 22px
+				font-size: 14px
+			&__input
+				text-align: center
+				padding-top: 17px
+				padding-bottom: 17px
+				font-size: 13px
+	.contacts
+		box-sizing: border-box
+		display: block
+		text-align: center
+		&-block
+			position: relative
+			margin-left: auto
+			margin-right: auto
+			margin-bottom: 50px
+			padding-left: 34px
+			left: 0%
+			img
+				display: none
+	.overlay
+		.popup
+			max-width: 80%
+			text-align: center
+			&-title
+				font-size: 20px				
+				max-height: 51px
+				line-height: 51px
+			&-form
+				padding-top: 32px
+				padding-left: 5px
+				padding-right: 5px
+				padding-bottom: 5px
+				&-header
+					font-size: 17px
+					span
+						display: block
+						font-size: 13px
+				&__input
+					width: 50%
+					height: 46px
+					font-size: 13px
+					padding: 0
+					padding-left: 10px
+					margin-bottom: 10px
+					vertical-align: middle
+				&__btn
+					width: 40%
+					height: 46px
+					margin-left: 0px
+					margin-top: 17px
+					margin-bottom: 10px
+					font-size: 13px
+					padding: 0px
+					vertical-align: middle
+				&__label
+					display: block
+					margin-top: 23px
+					font-size: 12px
+				&__note
+					font-size: 10px

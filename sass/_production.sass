@@ -1,0 +1,108 @@
+body
+	.production-slider-nav
+		.slick-arrow
+			width: 22px
+			height: 78px
+			text-align: center
+			border: 1px solid #ff9d00
+		.slick-prev
+			background: url(../img/slider/slider-prev.png) center no-repeat
+			transform: translateY(-44%) translateX(-10%)
+			&:hover
+				background: url(../img/slider/slider-next_hover.png) #ff9d00 center no-repeat
+				transform: translateY(-44%) translateX(-10%)  rotate(180deg)
+			&:before
+				content: ""
+				color: #ff9d00
+				font-size: 40px
+		.slick-next
+			background: url(../img/slider/slider-prev.png) center no-repeat
+			transform: rotate(180deg) translateY(44%)
+			&:hover
+				background: url(../img/slider/slider-next_hover.png) #ff9d00 center no-repeat
+				transform: translateY(-44%)
+			&:before
+				content: ''
+				color: #ff9d00
+				font-size: 40px
+	.production-slider-nav
+		height: 67px
+		margin-top: 20px
+		margin-left: 25px
+		margin-right: 25px
+		.main-slides
+			filter: brightness(50%)
+			cursor: pointer
+			width: 116px
+			height: 78px
+			&-1
+				background: url('../img/slider/mobile/img-1.png') center no-repeat
+				width: 116px
+				height: 78px
+				filter: brightness(50%)
+				cursor: pointer
+			&-2
+				background: url('../img/slider/mobile/img-2.png') center no-repeat
+				width: 116px
+				height: 78px
+				filter: brightness(50%)
+				cursor: pointer
+			&-3
+				background: url('../img/slider/mobile/img-3.png') center no-repeat
+				width: 116px
+				height: 78px
+				filter: brightness(50%)
+				cursor: pointer
+			&-4
+				background: url('../img/slider/mobile/img-4.png') center no-repeat
+				width: 116px
+				height: 78px
+				filter: brightness(50%)
+				cursor: pointer
+			&-5
+				background: url('../img/slider/mobile/img-5.png') center no-repeat
+				width: 116px
+				height: 78px
+				filter: brightness(50%)
+				cursor: pointer
+			&-6
+				background: url('../img/slider/mobile/img-6.png') center no-repeat
+				width: 116px
+				height: 78px
+				filter: brightness(50%)
+				cursor: pointer
+		.slick-current
+			filter: brightness(100%)
+.slider 
+	position: relative
+	z-index: 2
+.production
+	margin-top: 60px
+	margin-bottom: 60px
+	&-text
+		max-width: 379px
+		&__title
+			position: relative
+			padding-top: 20px
+			padding-bottom: 20px
+			margin-left: -10%
+			margin-top: 19px
+			margin-bottom: 28px
+			padding-left: 10%
+			width: 110%
+			z-index: -1			
+			color: $text-color-light
+			background-color: $active-color
+			font-size: 28px
+			font-weight: 300px
+		&__desr
+			font-size: 16px
+			font-weight: 300
+			line-height: 24px
+			text-align: justify
+			max-width: 379px
+			max-height: 304px
+			padding-left: 20px
+			margin-left: 0px
+			margin-top: 20px
+			margin-bottom: 20px
